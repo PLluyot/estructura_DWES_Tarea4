@@ -1,10 +1,10 @@
 <?php
     /*en lugar de incluir una página extensa donde gestionemos la sesión del usuario,
         validemos los campos del formulario, 
-        comprobemos las credenciales en la base de datos
-        mostremos los mensajes de error y el formulario
+        comprobemos las credenciales en la base de datos, realicemos alguna operación con la base de datos,
+        mostremos los mensajes de error y posteriormente el formulario
 
-        y tenerlo todo mezclado, separamos en distintos archivos cada parte
+        y tenerlo todo mezclado, separamos en distintos archivos cada parte.
     */
 ?>
 
