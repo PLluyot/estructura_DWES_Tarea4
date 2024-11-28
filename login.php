@@ -1,10 +1,10 @@
 <?php
     /*en lugar de incluir una página extensa donde gestionemos la sesión del usuario,
         validemos los campos del formulario, 
-        comprobemos las credenciales en la base de datos, realicemos alguna operación con la base de datos,
-        mostremos los mensajes de error y posteriormente el formulario
+        comprobemos las credenciales en la base de datos
+        mostremos los mensajes de error y el formulario
 
-        y tenerlo todo mezclado, separamos en distintos archivos cada parte.
+        y tenerlo todo mezclado, separamos en distintos archivos cada parte
     */
 ?>
 
@@ -19,7 +19,7 @@
     include "includes/sesiones.php";
     include "models/login_modelo.php";
     
-    // CONTENIDO
+    // CONTENIDO --> esto en un futuro lo meteremos en un  fichero que llamaremos login_controlador.php
     //validamos datos que nos lleguen por POST o GET si es que tenemos que validar algo
     //llamamos a una o varias funciones del modelo si es necesario
     /*
